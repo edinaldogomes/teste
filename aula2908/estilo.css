@@ -1,0 +1,54 @@
+body{
+    margin: 0 0 0 0;
+}
+
+.conteiner{
+    width: 100vw; /* HORIZONTAL */
+    height: 100vh; /* VERTICAL */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: rgb(133, 118, 118);
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.conteudo{
+    width: 800px;
+    height: 500px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.conteiner .menu label {
+    font-size: 30px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.conteiner .menu input{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 30px;
+    width: 600px;
+}
+
+.abas{
+    width: 200px;
+    height: 200px;
+    background-color: #4c4caa;
+    border-radius: 15px;
+}
+
